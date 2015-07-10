@@ -1,4 +1,4 @@
-module.exports=function(grunt){
+/*module.exports=function(grunt){
 grunt.initConfig({ 
 clean:{
   	 build:{
@@ -48,4 +48,4 @@ grunt.registerTask('default',['clean','uglify','jshint']);
 };
 
 
-
+*/
