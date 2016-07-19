@@ -1,10 +1,6 @@
-/*module.exports=function(grunt){
+module.exports=function(grunt){
 grunt.initConfig({ 
-clean:{
-  	 build:{
-	 src:["test\*.js","src\*.js"]
- 		}
-},
+
 
 uglify:
 {
@@ -39,13 +35,13 @@ all:
 });
 
 
-grunt.loadNpmTasks('grunt-contrib-clean');
+
 
 grunt.loadNpmTasks('grunt-contrib-uglify');
 grunt.loadNpmTasks('grunt-contrib-jshint');
 grunt.loadNpmTasks('grunt-mocha');
-grunt.registerTask('default',['clean','uglify','jshint']);
+grunt.registerTask('default',['uglify','jshint']);
 };
 
 
-*/
+
