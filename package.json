@@ -9,11 +9,12 @@
   "author": "Madhavi",
   "license": "ISC",
   "devDependencies": {
+    "grunt": "latest",
+    "grunt-cli": "latest",
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-jshint": "^0.11.2",
     "grunt-contrib-uglify": "^0.9.1",
-	"grunt-cli":"latest",
-	"grunt":"latest",
-	"grunt-mocha":"latest"
+    "grunt-exec": "^2.0.0",
+    "grunt-mocha": "latest"
   }
 }
