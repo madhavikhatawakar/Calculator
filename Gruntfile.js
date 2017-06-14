@@ -18,6 +18,10 @@ all:
   ['Gruntfile.js','test/*.js', 'src/*.js']
 
 },
+
+exec: {
+  echo_something: 'echo "This is something"'
+},
   
  mocha: {
     all: {
@@ -40,6 +44,7 @@ all:
 grunt.loadNpmTasks('grunt-contrib-uglify');
 grunt.loadNpmTasks('grunt-contrib-jshint');
 grunt.loadNpmTasks('grunt-mocha');
+grunt.loadNpmTasks('grunt-exec');
 grunt.registerTask('default',['uglify','jshint']);
 };
 
